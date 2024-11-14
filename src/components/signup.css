@@ -1,0 +1,110 @@
+/* signup.css */
+.signup-main {
+    display: flex;
+}
+
+.signup-left {
+    flex-grow: 1;
+    height: 100vh;
+    background-color: #E9E9E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-left img {
+    width: 400px;
+}
+
+.signup-right {
+    height: 100vh;
+    flex-grow: 1;
+}
+
+.signup-right-container {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup-right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-logo {
+    align-self: center;
+    padding-top: 50px;
+}
+
+.signup-logo img {
+    width: 50px;
+}
+
+.signup-center {
+    text-align: center;
+    margin: auto 0;
+}
+
+.signup-center h2 {
+    font-size: 3.5rem;
+}
+
+.signup-center p {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.pass-input-div {
+    position: relative;
+}
+
+.pass-input-div svg {
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 35px;
+    cursor: pointer;
+}
+
+.signup-center-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms-div {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.signup-bottom-p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 40px;
+}
+
+.signup-bottom-p a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup-bottom-p a:hover {
+    text-decoration: underline;
+}
